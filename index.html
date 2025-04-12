@@ -36,6 +36,8 @@
   <meta name="twitter:description" content="Empowering individuals with small loans to build better lives." />
   <meta name="twitter:image" content="https://www.sbsssmfi.com/static/Images/og-image.png" /> <!-- Replace with your actual image -->
 
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 
 
@@ -76,6 +78,14 @@
 }
 </script>
 
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // Animation duration (in milliseconds)
+    once: true,     // Whether animation should happen only once - while scrolling down
+  });
+</script>
 
 </head>
 
@@ -282,15 +292,15 @@
         <!-- Pages of About Mission Vision -->
         <div>
             <div class="heading">
-                <h1 class='scroll-clip'>Our Vision</h1>
+                <h1 data-aos="fade-up" class='scroll-clip'>Our Vision</h1>
             </div>
-            <div class="about-container">
+            <div data-aos="fade-right" class="about-container">
                 <section class="about">
                     <div class="about-image scroll-clip">
                         <img src="static/Images/vision.jpg">
                     </div>
                     <div class="about-content">
-                        <h2>Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD.</h2>
+                        <h2 data-aos="fade-up">Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD.</h2>
                         <p>Our vision is to empower underserved communities by providing accessible and affordable microfinance
                             solutions that foster entrepreneurship and economic growth. We aim to create financial inclusion by
                             offering small loans, savings programs, and financial education to individuals and small businesses.
@@ -306,16 +316,16 @@
             </div>
         
             <div class="heading">
-                <h1>Our Mission</h1>
+                <h1 data-aos="fade-up" >Our Mission</h1>
                 <!-- <p>SB Shree Sai Seva Micro Finance PVT. LTD. -->
                 </p>
             </div>
             <div class="about-container">
                 <section class="about">
-                    <div class="about-image">
+                    <div data-aos="flip-left" class="about-image">
                         <img src="static/Images/mission.jpeg" alt="">
                     </div>
-                    <div class="about-content">
+                    <div data-aos="fade-down" class="about-content">
                         <h2>Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD.</h2>
                         <p>Our mission is to provide affordable and accessible microfinance services to empower small businesses
                             and
@@ -333,15 +343,15 @@
             </div>
         
             <div class="heading">
-                <h1>About Us</h1>
+                <h1 data-aos="slide-up">About Us</h1>
             </div>
-            <div class="about-container">
+            <div data-aos="fade-up" class="about-container">
                 <section class="about">
                     <div class="about-image">
                         <img src="static/Images/About.png" alt="">
                     </div>
                     <div class="about-content">
-                        <h2>Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD.</h2>
+                        <h2 data-aos="fade-up">Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD.</h2>
                         <p>At Sharda Budhram Shree Sai Seva Micro Finance PVT. LTD., we are committed to empowering individuals
                             and
                             communities
@@ -369,13 +379,13 @@
                 <h1 class="card-heading">Meet Our Managing Director</h1>
             </div>  -->
             <div class="md-content">
-                <div class="md-section">
+                <div data-aos="zoom-in" class="md-section">
                     <img src="static/Images/Employee/md.jpeg" alt="Managing Director">
-                    <h2>Mr. Krishna Kant Kumar <br><small><i style="color:#6a6d78;">( Managing Director )</i></small></h2>
+                    <h2 data-aos="fade-right">Mr. Krishna Kant Kumar <br><small><i style="color:#6a6d78;">( Managing Director )</i></small></h2>
                 </div>
-                <div class="md-section">
+                <div data-aos="zoom-in" class="md-section">
                     <img src="static/Images/Employee/emp2.jpeg" alt="Managing Director">
-                    <h2>Mr. Sanket Mishra <br><small><i style="color:#6a6d78;">( Area Manager )</i></small> </h2>
+                    <h2 data-aos="fade-right">Mr. Sanket Mishra <br><small><i style="color:#6a6d78;">( Area Manager )</i></small> </h2>
                 </div>
             </div>
         </div>
@@ -383,7 +393,7 @@
         
         
         <!-- Card Section -->
-        <div class="scrolling-card">
+        <div data-aos="fade-up" class="scrolling-card">
             <div class="card-head">
                 <h1 class="card-heading">Our Dedicated Staff</h1>
             </div>
@@ -394,28 +404,28 @@
                     <ul class="card-box">
         
                         <li class="card">
-                            <div class="img">
+                            <div data-aos="flip-right" class="img">
                                 <img src="static/Images/Employee/emp1.jpeg" alt="Employee1 Image" draggable="false">
                             </div>
                             <h2>Ravi Kumar Prajapati</h2>
                             <span>M.D &amp; IT Support</span>
                         </li>
                         <li class="card">
-                            <div class="img">
+                            <div data-aos="flip-left" class="img">
                                 <img src="static/Images/Employee/emp3.jpeg" alt="Employee1 Image" draggable="false">
                             </div>
                             <h2>Sandeep Kumar</h2>
                             <!-- <span>Field Officer</span>  -->
                         </li>
                         <li class="card">
-                            <div class="img">
+                            <div data-aos="flip-right" class="img">
                                 <img src="static/Images/Employee/emp4.jpeg" alt="Employee1 Image" draggable="false">
                             </div>
                             <h2>Pradeep Kumar Chauhan</h2>
                             <!-- <span>Field Officer</span>  -->
                         </li>
                         <li class="card">
-                            <div class="img">
+                            <div data-aos="flip-left" class="img">
                                 <img src="static/Images/Employee/emp5.jpeg" alt="Employee1 Image" draggable="false">
                             </div>
                             <h2>Suraj Prajapati</h2>
